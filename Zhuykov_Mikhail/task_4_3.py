@@ -2,6 +2,7 @@ from datetime import datetime
 from decimal import Decimal
 from requests import get
 
+
 def currency_rates(curr_name):
     """
     Функция возвращает курс валюты с сайта 'http://www.cbr.ru/scripts/XML_daily.asp'.
