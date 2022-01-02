@@ -32,4 +32,3 @@ if __name__ == "__main__":
     print(currency_rates("USD"))
     print(currency_rates("Eur"))
     print(currency_rates("VSD"))
-    
