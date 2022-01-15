@@ -6,9 +6,9 @@ with open('users.csv', 'r', encoding='utf-8') as u:
             while True:
                 row_u = u.readline()
                 row_h = h.readline()
-                if row_u and row_h:
+                if row_u and row_h and not row_u.isspace():
                     users_hobby.write(f'{row_u.strip()}: {row_h.strip()}\n')
-                elif row_u and not row_h:
+                elif row_u and not row_h and not row_u.isspace():
                     users_hobby.write(f'{row_u.strip()}: None\n')
                 elif not row_u and row_h:
                     sys.exit(1)
