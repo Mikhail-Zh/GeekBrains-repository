@@ -20,9 +20,9 @@ def read_data(start=0, stop=0):
 
 def data_record(sales_amount):
     with open('bakery.csv', 'a+', encoding='utf-8') as f:
-        f.write(f'{sales_amount}\n')
+        f.write(f'{sales_amount:<10}\n')
 
 
 if __name__ == '__main__':
-    data_record(525)
-    read_data(2, 8)
+    data_record(4570.34)
+    read_data()
