@@ -38,6 +38,7 @@ matrix_2 = Matrix(lst_matrix_2)
 print(matrix_2)
 print('----Матрица №3----')
 matrix_3 = matrix_1 + matrix_2
+print(matrix_3)
 matrix_3 = Matrix(matrix_3)
 print(matrix_3)
 
